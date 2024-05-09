@@ -17,7 +17,11 @@ import Header from "../components/Header.svelte";
 <Card />
 </section>
 
+
+
+<!-- more side bar and footer in here-->
 <style>
+    
     section{
         display: flex;
     }
