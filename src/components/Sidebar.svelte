@@ -1,25 +1,26 @@
 <script>
-    
+    let navItems = [
+      {text:"Classes", href: "/Classes"},
+      {text:"TimeTable", href: "/Shedule"},
+      {text:"Pricing", href: "/Prices"},
+      {text:"Our Story", href: "/Our Story"},
+    ]
   </script>
   
-  <div class="Sidebar">
-    <nav>
-      <ul>
-        <li><a href="#some stuff">Hi</a></li>
-        <li><a href="#stuff">Hello</a></li>
-        <li><a href="#more stuff">Henlo</a></li>
-        <li><a href="#even more stuff">Bello</a></li>
-      </ul>
-    </nav>
-  </div>
-  
-  <style>
-    .Sidebar {
-      width: 200px;
-      height: 100vh;
-      background-color: #f4f4f4;
-      padding: 15px;
-      box-shadow: 2px 0 5px rgba(32, 1, 28, 0.1);
-    }
-  
-  </style>
+  <nav>
+    <ul>
+    {#each navItems as item}
+    <li><a href={item.href} > {item.text}</a></li>
+    {/each}
+    </ul>
+  </nav>
+
+<style>
+ ul{
+  padding-left: 0;
+ }
+ li {
+    list-style: none;
+  }
+
+</style>
