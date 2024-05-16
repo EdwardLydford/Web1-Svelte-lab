@@ -1,10 +1,5 @@
 <script>
-    let navItems = [
-      {text:"Classes", href: "/Classes"},
-      {text:"TimeTable", href: "/Shedule"},
-      {text:"Pricing", href: "/Prices"},
-      {text:"Our Story", href: "/Our Story"},
-    ]
+    export let navItems;
   </script>
   
   <nav>

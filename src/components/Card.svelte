@@ -20,6 +20,7 @@ import Details from "./Details.svelte";
     section{
         display: flex;
         border: 1px solid rgb(0, 0, 0) ;
+        padding: 1em;
     }
 
 </style>

@@ -1,10 +1,10 @@
 <script>
-
+let username ="@Blinky";
 </script>
 
 <figure>
     <img src ="ryanhall.jpg" alt ="jitsu">
-    <figcaption></figcaption>
+    <figcaption>{username}</figcaption>
     
 </figure>
 
