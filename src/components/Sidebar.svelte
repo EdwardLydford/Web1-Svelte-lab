@@ -12,7 +12,7 @@
 
 <style>
  ul{
-  padding-left: 0;
+  padding-left: 0.25em;
  }
  li {
     list-style: none;

@@ -2,12 +2,12 @@
 
   </script>
   
-  <footer>
-    <h1>This is a footer</h1>
-  </footer>
+  
+    <f1>This is a footer</f1>
+  
   
   <style>
-    h1 {
+    f1 {
       color: hotpink;
     }
   </style>

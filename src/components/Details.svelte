@@ -5,18 +5,21 @@
         lastName : "McHellHook",
         age : 29,
         location: "USA",
-        occupation: "Roller",
+        occupation: "Ankle Roller",
         email: "RollAround@HeelHook.com"
 
     }
 </script>
 <dl>
-<dt>Nmae</dt>
+<dt>Name</dt>
 <dd>{person.firstName}</dd>
 <dt>Surname</dt>
 <dd>{person.lastName}</dd>
 <dt>Email</dt>
 <dd>{person.email}</dd>
 </dl>
+<style>
 
+
+</style>
 
