@@ -1,1 +1,0 @@
-<h1>Cards page</h1>
