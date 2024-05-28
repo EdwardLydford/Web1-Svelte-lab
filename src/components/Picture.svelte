@@ -1,5 +1,6 @@
 <script>
-let username ="@Blinky";
+export let person;
+let username = person.username;
 </script>
 
 <figure>

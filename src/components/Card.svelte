@@ -1,15 +1,17 @@
 
 <!-- SCRIPT-->
 <script>
+
 import Picture from "./Picture.svelte";
 import Details from "./Details.svelte";
+export let person;
 </script>
 
 
 <!-- html-->
 <section>
-<Picture />
-<Details />
+<Picture {person}/>
+<Details {person}/>
 
     
 </section>
